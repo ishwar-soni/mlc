@@ -16,6 +16,7 @@ public class DomainException extends RuntimeException{
 
     public enum ErrorCode {
         CACHE_PROVIDER_NOT_FOUND,
+        EVICTION_POLICY_NOT_SUPPORTED,
         STORAGE_FULL,
     }
 }
