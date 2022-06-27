@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: mlc
+numLevels: 3
+levelConfig:
+  1:
+    type: in-memory
+    capacity: 10
+    eviction: lru
+  2:
+    type: in-memory
+    capacity: 20
+    eviction: lru
+  3:
+    type: in-memory
+    capacity: 15
+    eviction: lru
